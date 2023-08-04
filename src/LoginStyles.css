@@ -1,0 +1,241 @@
+
+
+.buttonStyle {
+    /* height: 35px; */
+    /* wid   */
+    /* top: 70%;
+    left: 33.5%; */
+    /* position: fixed; */
+    display:flex;
+
+    background: #fff;
+    color: #000;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-duration: color 0.3s;
+    transition-duration: background-color 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.buttonStyle:hover {
+    transform: translateY(-5px);
+    color: #861A0D;
+}
+
+.emailTitle {
+    display:flex;
+    position: fixed;
+    top: 27%;
+    left: 35%
+}
+
+.passwordTitle {
+    display:flex;
+    position: fixed;
+    top: 50%;
+    left: 35%
+}
+
+.buttonSG2 {
+    /* height: 35px;
+    width: 100px; */
+    /* top: 70%;
+    left: 55.5%; */
+    /* position: fixed; */
+    display: flex;
+    
+    background: transparent;
+    color: #000;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-duration: color 0.3s;
+    transition-duration: background-color 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.buttonSG2:hover {
+    transform: translateY(-5px);
+    color: #861A0D;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* .overall {
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+} */
+
+.firstform {
+    width: 400;
+    height: 30px;
+    top: 35%;
+    left: 35%;
+
+    margin: auto;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    
+    /* align-items: center; */
+}
+
+.firstform input[type=text] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+    /* font-family: 'Poppins',sans-serif; */
+    outline:none;
+}
+
+.secondform {
+    width: 400;
+    height: 30px;
+    top: 58.5%;
+    left: 35%;
+    margin: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid black;
+}
+
+.secondform input[type=password] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+    /* font-family: 'Poppins',sans-serif; */
+    outline: none;
+}
+
+.secondform input[type=text] {
+    border: transparent;
+    background-color: transparent;
+    width: 400px;
+    font-size: 1.2rem;
+    /* font-family: 'Poppins',sans-serif; */
+    outline: none;
+}
+
+.pwToggle {
+    top: 57%;
+    left: 61%;
+    position: fixed;
+    display:flex;
+
+    align-self:auto;
+    background: #fff;
+    color: #252525;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.2rem;
+}
+
+.buttons {
+
+    width:900px;
+    display:flex;
+    flex-direction: column;
+    top: 50%;
+    border: 1px solid black;
+    position: fixed;
+    background-color:black;
+    width:500px;
+    height:200px;
+}
+
+.buttons-container{
+    
+    top: 65%;
+    left:30%;
+
+    
+    margin: auto;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+    width:500px;
+    border: 1px solid black;
+
+    
+    height:100px;
+}
+
+.password { 
+    width: 500px;
+    height:100px;
+    top:40%;
+    position: fixed;
+    display: flex;
+}
+
+label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.switch {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switchSpan {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2c3e50;
+    transition: 0.3s;
+    border-radius: 30px;
+}
+
+.switchSpan:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 3px;
+    bottom: 2.6px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  input:checked + span {
+    background-color: #00c853;
+  }
+  
+  input:checked + span:before {
+    transform: translateX(29px);
+  }

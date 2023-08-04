@@ -1,0 +1,104 @@
+.backdrop {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000000a6;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.modal {
+    width: clamp(40%, 500px, 60%);
+    height: min(60%, 700px);
+
+    margin: auto;
+    padding: 0 2rem;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAF9F6;
+    z-index: 1;
+    box-shadow: 0px 0px 26px 0px rgba(0, 0, 0, 0.281);
+}
+
+.modalHeader {
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 1.5rem;
+    top: 25%;
+    position: fixed;
+    color:rgb(34, 34, 34)
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.aCode {
+    /* width: 150px;
+    height: 30px;
+    top: 50%;
+    left: 26%; */
+
+    position: fixed;
+    display:flex;
+    align-self: auto;
+    left:32%;
+    top:50%;
+    width:200px;
+    border-bottom: 1px solid black;
+
+    text-align:center
+    
+}
+
+.aCode input[type=number] {
+    
+    border: transparent;
+    background-color: transparent;
+    width: 50%;
+    
+    
+
+    font-size: 1.8rem;
+    /* font-family: 'Poppins',sans-serif; */
+    outline:none;
+    text-align: center;
+    
+    color:rgb(34, 34, 34)
+}
+
+.submitButton {
+    height: 35px;
+    width: 150px;
+    top: 80%;
+    left: 40%;
+    position: fixed;
+    display:flex;
+    border-radius: 32px;
+    background: transparent;
+    color: #000;
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    align-items: center; 
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-duration: color 0.3s;
+    transition-duration: background-color 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.submitButton:hover {
+    transform: translateY(-5px);
+    color: #861A0D;
+
+
+}
