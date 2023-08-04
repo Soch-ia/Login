@@ -42,7 +42,7 @@ const Modalv2 = ({handleClose, email, password}) => {
         console.log(code)
         console.log("email: ", email)
         console.log("password: ", password)
-        axios.post('http://localhost:8081/code', {        
+        axios.post('http://18.141.50.171/code', {        
 
             email: email,
             password: password,

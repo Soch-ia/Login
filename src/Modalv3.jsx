@@ -43,7 +43,7 @@ const Modalv3 = ({handleClose, email, password}) => {
         console.log(token)
         console.log("email: ", email)
         console.log("password: ", password)
-        axios.post('http://localhost:8081/totp', {        
+        axios.post('http://18.141.50.171/totp', {        
 
             email: email,
             password: password,

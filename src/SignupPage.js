@@ -45,7 +45,7 @@ function SignUp() {
     e.preventDefault()
 
 
-    axios.post('http://localhost:8081/create', {
+    axios.post('http://18.141.50.171/create', {
       name: name,
       email: email,
       password: password

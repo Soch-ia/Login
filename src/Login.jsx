@@ -61,7 +61,7 @@ function Login() {
             var checkMethod = 1;
         } 
 
-        axios.post('http://localhost:8081/test', {        
+        axios.post('http://18.141.50.171/test', {        
             email: email,
             password: password,
             checkMethod: checkMethod
