@@ -199,7 +199,7 @@ function Login() {
         <div className =' bg-slate-50'>      
             <div className = {classNames('w-full h-screen flex', {'bg-black/40 top-0 left-0 absolute ':modalOpen,
              })} >
-                <motion.div className = 'animate-float grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[900px] bg-white'
+                <motion.div className = 'md:animate-float grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] shadow-lg shadow-gray-600 sm:max-w-[900px] bg-white'
                 variants={bigBox} initial= "hidden" animate= "show">
                     <div className = 'w-full h-[550px] hidden md:block'>
                         <motion.img className = 'w-full h-full' src = {home} alt = "/" 
